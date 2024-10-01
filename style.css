@@ -1,0 +1,776 @@
+
+                                /* upperhead */
+
+
+.mainhead .adres ul li a{
+    color: rgb(255, 255, 255);
+}
+.mainhead .icons ul li a{
+    color: rgb(255, 255, 255);
+}
+.adres ul{
+    display: flex;
+    gap: 30px;
+}
+.mainhead .icons ul{
+    display: flex;
+    gap: 15px;
+}
+.mainhead {
+    gap: 300px;
+    background-color: #002D5B;
+    display: flex;
+
+    justify-content: space-around;
+}
+.adres,.icons{
+    font-size: 16px;
+    padding-top: 12px;
+}
+.icons a :hover{
+  transition: 0.9S;
+    color: red;
+    transform: rotate(-190deg);
+}
+
+
+
+
+
+/* ...................belowhead............. */
+
+
+.mainheadbelow .icons ul{
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+    padding-top: 12px;
+    color: black;
+}
+.mainheadbelow .icons ul li a{
+    font-weight: 500;
+    color: black;
+}
+.mainheadbelow .icons ul li a:hover{
+    transition: 0.5s;
+    color: red;
+}
+.mainheadbelow{
+    padding-top: 60px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.button button{
+    border: none;
+    color: white;
+    background: rgba(255, 0, 0, 0.589);
+    border-radius: 14px;
+    padding: 20px 50px;
+  
+}
+.logo{
+    padding-top: 20px;
+}
+
+
+
+
+/* .................section  banner.................. */
+
+.banner{
+    background-image: url("./images/banner.webp");
+    /* height: 100vh; */
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.mainbanner{
+    padding-top: 50px;
+}
+.slider .items h6{
+    color: rgba(255, 0, 0, 0.589);
+    line-height: 10px;
+    font-size: 22px;
+
+}
+.slider .items h1{
+    color: #002D5B;
+    line-height: 90px;
+    font-weight: 800;
+    font-size: 72px;
+
+}
+.slider{
+    position: absolute;
+    left: 120px;
+    top: 122px;
+}
+.butoonss button{
+   
+    border-radius: 12px;
+    font-weight:500;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.589);
+    padding: 14px 42px;
+    border:  none;
+   
+}
+.butoonss{
+ padding-top: 50px;
+}
+/* ............cards,,,,,,,,,,,,,, */
+.card .imagesssssss img{
+    width: 100%;
+}
+.card{
+   
+    width: 83%;
+}
+.cardddd{
+    width: 340px;
+    height: 400px;
+    border: 5px solid rgba(192, 9, 9, 0.63);
+}
+.card_body{
+    padding: 50px 20px;
+    
+}
+.card_body h1{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.card_body p{
+    padding-top: 30px;
+    line-height: 23px;
+    
+    
+    color: rgba(0, 0, 0, 0.541);
+}
+.card_body a {
+    color: rgba(0, 0, 0, 0.541);
+    font-size: 18px;
+    font-weight: 600;
+}
+.mainnnnss{
+ background-color:#F6F9FE;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    justify-content: center;
+}
+.card-body{
+    background-color: #F6F9FE;
+}
+
+.card .imagesssssss img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-bottom: 4px solid rgb(202, 17, 17);
+
+}
+
+
+.row{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.wholeeee h1{
+    text-align: center;
+}
+
+
+/* ...................section baloch........... */
+.borderrr button{
+    color: white;
+    background-color: rgba(248, 0, 0, 0.651);
+    border: none;
+     
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+.buttton{
+    padding-top: 40px;
+}
+.mains{
+    
+padding-top: 100px;
+}
+.borderrr h4{
+    font-size: 40px;
+    font-weight: 700;
+}
+.borderrr p{
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+.borderrr{
+    position: absolute;
+    width: 100%;
+    height:100% ;
+    border: 1px solid black;
+    border: none;
+ 
+   background-color: rgb(255, 255, 255);
+}
+.borderrrrrrr img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.mall{
+    padding: 60px 11px;
+   
+    padding-left: 40px;
+}
+.mains{
+    position: relative;
+}
+.borderrrrrrr{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    border: none;
+
+}
+.borderrrrrrr img{
+    width: 100%;
+}
+.contenttt{
+    padding: 20px 5px;
+   
+}
+.contenttt h6{
+    font-size: 21px;
+}
+.contenttt h6:hover{
+    color: rgba(255, 0, 0, 0.753);
+}
+.contenttt .buness {
+    color: red;
+}
+.contenttt .dall{
+    color: rgba(0, 0, 0, 0.568);
+}
+.wholeeee{
+    padding-top: 120px;
+}
+.wholeeee h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+}
+.mainmorecards{
+    padding-top: 120px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+/* ......................bluebanner.............. */
+.seconddiv .bothmain .inputone input{
+    padding: 18px;
+    /* width: 320px; */
+    border-radius: 9px;
+}
+.bothmain{
+    display: flex;
+    gap: 20px;
+}
+.backgroud{
+  padding-top: 70px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.firstdiv p{
+    padding-top: 20px;
+    font-size: 18px;
+}
+.selectionss{
+    flex-direction: row;
+}
+.wholemain{
+    
+ padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.wholemain .selectionn select {
+    appearance: none;
+    padding: 20px ;
+    width: 500px;
+    border-radius: 7px;
+    
+   
+    
+    
+}
+.bluebackground{
+    background-color: #002D5B;
+    padding-bottom: 50px;
+    
+}
+.send button{
+
+    border-radius: 11px;
+    padding: 20px 66px;
+    background-color: rgba(248, 0, 0, 0.651);
+    color: white;
+    border: none;
+    
+}
+.bothesss{
+   
+    
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    
+}
+.para{
+/* padding-left: 40px; */
+   color: white;
+    padding-right: 100px;
+    font-size: 18px;
+}
+.firstdiv{
+    color: white;
+}
+
+
+
+
+.bothmain input{
+    background-color: #002D5B;
+    border-color: #065cb1;
+      box-shadow: -9px 5px 12px -3px;
+    
+      outline: none !important;
+      color: #fff !important;
+}
+.bothmain input::placeholder{
+    color: #fff !important;
+}
+.bothmain input:focus{
+    background-color: #002D5B;
+    box-shadow: none !important; 
+    outline: none !important;
+    border: 1px solid #065cb1;
+}   
+/* .bothmain input:focus{
+    border-color:0;
+    
+} */
+.bothesss .selectionn select {
+    padding: 17px 57px;
+    border-color: #002D5B;
+    box-shadow: -9px 5px 12px -3px;
+    background-color: #002D5B;
+  color: #fff;
+
+ 
+
+}
+.bothesss option{
+    color: #fff;
+    /* background-color: #ffffff; */
+}
+.firstfooter ul{
+    color: black;
+    display: flex;
+    gap: 10px;
+}
+.firstfooter ul li a{
+    font-size: 18px;
+    color: black;
+}
+.firstfooter p{
+    padding: 40px 34px;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.555);
+ 
+    
+}
+.secondmian{
+    padding-bottom: 70px;
+}
+.firstfooter img{
+    padding-left: 30px;
+}
+.secondmian {
+    display: flex;
+    gap: 30px;
+   
+   
+}
+.secondmian ul li {
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.secondmian ul li a:hover{
+    color: blue;
+    transition: 0.5s;
+    
+}
+
+.secondmian ul li a{
+    color: black;
+}
+.threemain{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.company h4{
+    font-size: 30px;
+}
+.lastfooter p{
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+    padding: 40px 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.438);
+}
+
+/* ...............responsives111................. */
+
+.buttonclasss button{
+    padding: 15px 20px;
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+/* }
+.................responsivnes...................... */
+
+
+@media screen and (max-width:1199px) {
+    .section_card .container{
+        width: 1140px !important;
+    }
+    
+}
+@media screen and (max-width:1019px) {
+    .mainhead{
+        gap: 100px;
+    }
+    
+}
+
+@media screen and (max-width:693px) {
+    .mainhead{
+        gap: 0;
+    }
+    .adres ul{
+        flex-direction: column;
+        gap: 0px;
+    }
+}  
+    
+
+@media screen and (max-width:987px) {
+    .mainheadbelow .icons ul{
+        justify-content: baseline;
+        display: none;
+    }
+    
+}
+
+@media screen and(max-width:991px) {
+    .buttonclasss button{
+        padding: 23px;
+
+    }
+    .contenttt h6 br{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:1366px) {
+    .buttonclasss button{
+        display: none;
+    }
+
+    
+}
+.iconsoffcanvas ul{
+    gap: 10px;
+    justify-content: space-around;
+     display: flex;
+    
+}
+
+.iconsoffcanvas ul li a{
+    color: black;
+}
+.iconsoffcanvas ul li a:hover{
+    transition: 0.2s;
+    color: red;
+    border-bottom: 4px solid rgb(250, 28, 28);
+}
+
+@media screen and (max-width:975px) {
+    .buttonclasss button{
+        display: flex;
+    }
+   
+        
+       
+    }
+
+    
+
+
+
+@media screen and (max-width:465px) {
+    .mainheadbelow{
+        align-items: baseline;
+        
+    }
+    .buttonclasss button{
+        padding: 12px;
+    }
+    .button button{
+        padding: 12px;
+    }
+    .borderrr h4 {
+        font-size: 29px;
+     
+    }
+    .borderrr p {
+        padding-top: 0;
+        font-size: 15px;
+    }
+    .buttton {
+        padding-top: 0;
+    }
+    .borderrr button{
+        padding: 11px 28px;
+    }
+    .borderrr p br{
+        display: none;
+    }
+}
+@media screen and(max-width:293px) {
+    .buttonclasss button{
+        padding: 5px;
+    }
+    .button button{
+        padding: 5px;
+    }
+    /* .img{
+        height: 10px;
+    } */
+
+    
+}
+@media screen and (max-width:656px) {
+    .button button{
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width:316px) {
+ .mainheadbelow{
+    align-items: baseline;
+ }
+}
+
+
+
+@media screen and (max-width:1326px) {
+    .slider .items h1{
+        font-size: 45px;
+        line-height: 53px;
+      
+
+      
+    }
+    .butoonss{
+        padding-top: 15px;
+    }
+    
+}
+@media screen and (max-width:1034px) {
+    .slider .items h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .borderrr{
+        position: relative;
+        width: 100%;
+        height: 460px;
+        border: 1px solid black;
+        border: none;
+       left: 0;
+       top: 0;
+       background-color: rgb(255, 255, 255);
+    }
+    .balochs img{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:726px) {
+    .slider .items h1{
+      
+        line-height: 20px;
+    }
+    .slider .items h6 {
+        font-size: 10px;
+    }
+    .butoonss{
+        padding-top: 10px;
+    }
+    .butoonss button{
+        padding: 6px 14px;
+        font-size: 10px;
+    }
+    /* .banner{
+        height: 40vh;
+    } */
+    
+}
+@media screen and(max-width:726px) {
+    .slider .items h1{
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .slider .items h6{
+        font-size: 12px;
+    }
+    .butoonss button{
+        padding: 14px 42px;
+
+    }
+
+    
+}
+@media screen and (max-width:1031px) {
+    .banner{
+        height: 30vh;
+    }
+    
+}
+@media screen and (max-width:554px) {
+    .slider .items h1{
+        font-size: 12px;
+    }
+    .slider .items h6{
+        font-size: 8px;
+    }
+    .slider .items h6{
+        font-size: 8px;
+    }
+    .banner{
+       
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .butoonss button {
+        font-size: 6px;
+
+        
+    }
+    .butoonss{
+        padding-top: 1px;
+    }
+    
+    
+}
+@media screen and (max-width:933px) {
+    .bothmain {
+        flex-direction: column;
+    }
+    .bothmain input{
+        width: 40%;
+    }
+    .bothesss{
+        flex-direction: column;
+    }
+    .send button{
+        font-size: 11px;
+        padding: 22px  21px;
+    }
+    .bothesss .selectionn select{
+        width: 50%;
+      
+    }
+    .firstdiv h1{
+        font-size: 17px;
+    }
+    .para p{
+        font-size: 9px;
+    }
+    
+}
+@media screen and (max-width:617px) {
+    .para p{
+        font-size: 6px;
+
+    }
+    .firstdiv h1{
+        font-size: 10px;
+    }
+    .seconddiv .bothmain .inputone input{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .bothesss .selectionn select{
+        padding: 3px 37px;
+    }
+    .send button{
+        padding: 5px 15px;
+    }
+    
+}
+@media screen and (max-width:377px) {
+    .bothmain input{
+        width: 25%;
+       
+    }
+    .seconddiv .bothmain .inputone input {
+        padding: 5px;
+        font-size: 4px;
+    }
+    .bothesss .selectionn select{
+        width: 34%;
+    }
+    .firstdiv p{
+        padding-top: 0px;
+    }
+
+    
+}
+@media screen and (max-width:939px) {
+    .secondmian ul li{
+        line-height: 30px;
+    }
+    
+}
